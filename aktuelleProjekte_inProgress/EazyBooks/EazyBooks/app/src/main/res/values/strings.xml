@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EazyBooks</string>
+    <string name="dashboard_transactions_description">Description for dashboard transactions button</string>
+    <string name="dashboard_kategories_description">Description for dashboard kategories button</string>
+    <string name="dashboard_budget_description">Description for dashboard budget button</string>
+    <string name="dashboard_reports_description">Description for dashboard reports button</string>
+    <string name="dashboard_settings_description">Description for dashboard settings button</string>
+</resources>

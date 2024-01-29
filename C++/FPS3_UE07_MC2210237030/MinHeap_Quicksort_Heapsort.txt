@@ -1,0 +1,1 @@
+Dieses Projekt war eine Übung in C++, da.mit wir die Funktionen eines Heaps kennenlernen und auch verschiedene Sort-Algorithmen - Heapsort und Quicksort.

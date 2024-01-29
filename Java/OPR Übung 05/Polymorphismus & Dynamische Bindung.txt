@@ -1,0 +1,1 @@
+In diesem Projekt haben wir die Funktionen von Polymorphismus & Dynamische Bindung kennengelernt.

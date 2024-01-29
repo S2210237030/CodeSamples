@@ -1,0 +1,3 @@
+EazyBooks soll eine Buchhaltungs-App für Privatpersonen ewrden, damit die Buchhaltung vereinfacht werden kann und es immer ein Backup gibt. So werden die Finanzen in einer klar strukturellen Übersicht aufgelistet und man kann sich mit wenigen Klicks einen guten Überblick verschaffen.
+
+Die App ist noch am Anfang, da ich sie über mehrere Semester weiterentwickeln möchte und gegebenenfalls dann auch zu meinem Bachelorprojekt ausbauen möchte.

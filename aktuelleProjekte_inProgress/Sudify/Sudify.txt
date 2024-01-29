@@ -1,0 +1,1 @@
+Sudify ist eine Sudoku-App, die ich im Rahmen der LVA Softwareentwicklung unter IOS gerade programmiere.

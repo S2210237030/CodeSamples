@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="#323131">
+
+    <TextView
+        android:id="@+id/activity_home_tv_start"
+        android:layout_width="196dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif-black"
+        android:includeFontPadding="false"
+        android:text="Let's get started..."
+        android:textColor="#D1D1D0"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/activity_home_tv_select"
+        app:layout_constraintEnd_toEndOf="@+id/activity_home_tv_select"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="@+id/activity_home_tv_select" />
+
+    <TextView
+        android:id="@+id/activity_home_tv_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Select Your Game Mode"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.619" />
+
+    <ImageView
+        android:id="@+id/activity_home_iv_logo"
+        android:layout_width="342dp"
+        android:layout_height="327dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.084"
+        app:srcCompat="@drawable/beerponglogo_transparent" />
+
+    <Button
+        android:id="@+id/activity_home_button_friendsgame"
+        android:layout_width="219dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#FFC107"
+        android:text="Game Among Friends"
+        android:textColorHighlight="#FF9800"
+        app:layout_constraintBottom_toTopOf="@+id/activity_home_button_kogames"
+        app:layout_constraintEnd_toEndOf="@+id/activity_home_button_kogames"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/activity_home_button_kogames" />
+
+    <Button
+        android:id="@+id/activity_home_button_kogames"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="92dp"
+        android:backgroundTint="#FF9800"
+        android:text="Knockout Game"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

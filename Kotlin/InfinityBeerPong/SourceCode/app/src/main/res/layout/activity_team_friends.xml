@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeamFriendsActivity"
+    android:background="#323131">
+
+    <Button
+        android:id="@+id/activity_team_friends_button_start_game"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFC107"
+        android:text="Start Game"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/activity_team_friends_inputtext_team2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/activity_team_friends_inputtext_team2"
+        app:layout_constraintTop_toBottomOf="@+id/activity_team_friends_inputtext_team2" />
+
+    <TextView
+        android:id="@+id/activity_team_friends_tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Here You can name Your Team"
+        android:textColor="#D1D1D0"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/activity_team_friends_inputtext_team1"
+        app:layout_constraintEnd_toEndOf="@+id/activity_team_friends_inputtext_team1"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="@+id/activity_team_friends_inputtext_team1" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/activity_team_friends_inputtext_team2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Team 2"
+        android:backgroundTint="#FFFFFF"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/activity_team_friends_inputtext_team1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/activity_team_friends_inputtext_team1"
+        app:layout_constraintTop_toBottomOf="@+id/activity_team_friends_inputtext_team1" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/activity_team_friends_inputtext_team1"
+        android:layout_width="187dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="52dp"
+        android:hint="Team 1"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.467" />
+
+    <TextView
+        android:id="@+id/activity_team_friends_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Set up your Teams to start the Game!"
+        android:textColor="#D1D1D0"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/activity_team_friends_tv1"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="@+id/activity_team_friends_tv1"
+        app:layout_constraintTop_toBottomOf="@+id/activity_team_friends_tv1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/activity_team_friends_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Team Settings"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.195" />
+
+    <ImageButton
+        android:id="@+id/activity_team_friends_button_back"
+        android:layout_width="51dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#FFC107"
+        android:backgroundTint="#FFC107"
+        app:layout_constraintBottom_toTopOf="@+id/activity_team_ko_button_start_game"
+        app:layout_constraintEnd_toStartOf="@+id/activity_team_ko_tv1"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,3 @@
+Dieses Projekt war das Semesterprojekt im 2. Semester von 2 Freunden und mir gemeinsam. Anfangs haben wir uns überlegt, dass wir einen Tisch zum Spiel machen, der verschiedene Funktionen kann, aber danach sind wir umgestiegen auf eine App zum Spiel.
+
+Damit kann man Turniere spielen und die Erfolge mittracken und danach sieht man wer gewonnen hat.

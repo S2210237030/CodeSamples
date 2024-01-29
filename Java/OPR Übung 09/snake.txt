@@ -1,0 +1,1 @@
+In diesem Projekt habe ich das Spiel Snake mit JavaFX nachgebaut und zusätzliche Funktionen selbst dazu implementiert.

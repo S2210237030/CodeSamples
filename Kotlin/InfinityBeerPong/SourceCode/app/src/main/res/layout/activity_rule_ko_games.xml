@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RuleKoGamesActivity"
+    android:background="#323131">
+
+    <TextView
+        android:id="@+id/activity_rule_ko_tv"
+        android:layout_width="274dp"
+        android:layout_height="62dp"
+        android:gravity="left"
+        android:text="Our Beer Pong is played by 2 Teams in which each team takes turn throwing a table tennis ball into the other team's cups."
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1."
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/activity_rule_ko_tv"
+        app:layout_constraintHorizontal_bias="0.698"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.376" />
+
+    <TextView
+        android:id="@+id/activity_rule_ko_tv2"
+        android:layout_width="288dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="312dp"
+
+        android:gravity="left"
+        android:text="Once a ball lands in a cup, the cup is taken away and the opponent then drinks the contents of the cup."
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activity_rule_ko_tv"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="3."
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/activity_rule_ko_tv3"
+        app:layout_constraintHorizontal_bias="0.698"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.003" />
+
+    <TextView
+        android:id="@+id/activity_rule_ko_tv3"
+        android:layout_width="289dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="252dp"
+        android:gravity="left"
+        android:text="The team that successfully hits all of the opponent’s cups wins the game."
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.614"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activity_rule_friends_tv2"
+        app:layout_constraintVertical_bias="0.077" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:text="2."
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/activity_rule_ko_tv2"
+        app:layout_constraintHorizontal_bias="0.698"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <Button
+        android:id="@+id/activity_rule_ko_game_button_setupteams"
+        android:layout_width="158dp"
+        android:layout_height="58dp"
+        android:backgroundTint="#FFC107"
+        android:enabled="false"
+        android:text="Set up Teams"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.881"
+        app:strokeColor="#000000" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <CheckBox
+        android:id="@+id/activity_rule_ko_game_checkBox"
+        android:layout_width="268dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="16dp"
+        android:text="I accept the rules of this Application."
+        android:textColor="#D1D1D0"
+        android:buttonTint="#D1D1D0"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/activity_rule_ko_game_button_setupteams"
+        app:layout_constraintEnd_toEndOf="@+id/activity_rule_ko_game_button_setupteams"
+        app:layout_constraintStart_toStartOf="@+id/activity_rule_ko_game_button_setupteams" />
+
+    <TextView
+        android:id="@+id/activity_ruke_game_friends_tv"
+        android:layout_width="349dp"
+        android:layout_height="71dp"
+        android:gravity="center"
+        android:text="This Beer Pong Application operates according to the following rules, please take note."
+        android:textColor="#D1D1D0"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/activity_rule_game_friends_tv"
+        app:layout_constraintStart_toStartOf="@+id/activity_rule_game_friends_tv"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.236" />
+
+    <ImageButton
+        android:id="@+id/activity_rule_game_friends_button_backtohome2"
+        android:layout_width="51dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#FFC107"
+        android:backgroundTint="#FFC107"
+        app:layout_constraintBottom_toTopOf="@+id/activity_rule_ko_game_checkBox"
+        app:layout_constraintEnd_toEndOf="@+id/activity_rule_game_friends_tv"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+    <TextView
+        android:id="@+id/activity_rule_game_friends_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Knockout Games"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.138" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

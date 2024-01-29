@@ -1,0 +1,10 @@
+zusätzliche Funktionen:
+
+- drei verschiedene Game-Modes 
+	- ein normales Futter
+	- ein normales Futter und ein vergiftetes Futter
+	- ein normales Futter und zwei vergiftete Futter
+- die vergifteten Futter lassen die Snake um 1 kleiner werden
+	- wenn Snake nur 1 groß ist und ein vergiftetes Futter frisst - Game Over
+- bei den Snake-Größen 5, 10, 15, 20, 25, 30, 35 und 40  taucht immer ein Stein auf
+	- wenn die Snake gegen den Stein fährt - Game Over

@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#323131"
+    tools:context=".GameKoActivity">
+
+    <Button
+        android:id="@+id/activity_game_ko_btn_exit_finish"
+        android:layout_width="74dp"
+        android:layout_height="39dp"
+        android:backgroundTint="#D7DC0424"
+        android:fontFamily="monospace"
+        android:text="Exit"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.734"
+        app:layout_constraintStart_toEndOf="@+id/activity_game_ko_cup10_noball"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.411" />
+
+    <TextView
+        android:id="@+id/activity_game_ko_tv_team2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="92dp"
+        android:text="Team 2"
+        android:textColor="#F4F2F2"
+        android:textColorHighlight="#000000"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/activity_game_ko_cup20_noball"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/activity_game_ko_cup17_noball"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.961" />
+
+    <TextView
+        android:id="@+id/activity_game_ko_tv_punkte2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Points:"
+        android:textColor="#F4F0F0"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/activity_game_ko_cup11_noball"
+        app:layout_constraintHorizontal_bias="0.165"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.595" />
+
+    <ImageButton
+        android:id="@+id/activity_game_ko_cup11_noball"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="#323131"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.603"
+        app:srcCompat="@drawable/nopersp_noball_cup_8x" />
+
+    <ImageButton
+        android:id="@+id/activity_game_ko_cup13_noball"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="#323131"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.701"
+        app:srcCompat="@drawable/nopersp_noball_cup_8x" />
+
+    <ImageButton
+        android:id="@+id/activity_game_ko_cup12_noball"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="#323131"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.413"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.701"
+        app:srcCompat="@drawable/nopersp_noball_cup_8x" />
+
+    <ImageButton
+        android:id="@+id/activity_game_ko_cup15_noball"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="#323131"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.798"
+        app:srcCompat="@drawable/nopersp_noball_cup_8x" />
+
+    <ImageButton
+        android:id="@+id/activity_game_ko_cup14_noball"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="#323131"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.315"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.798"
+        app:srcCompat="@drawable/nopersp_noball_cup_8x" />
+
+    <ImageButton
+        android:id="@+id/activity_game_ko_cup18_noball"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="#323131"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.413"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.896"
+        app:srcCompat="@drawable/nopersp_noball_cup_8x" />
+
+    <ImageButton
+        android:id="@+id/activity_game_ko_cup16_noball"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="#323131"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.687"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.798"
+        app:srcCompat="@drawable/nopersp_noball_cup_8x" />
+
+    <ImageButton
+        android:id="@+id/activity_game_ko_cup19_noball"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="#323131"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.896"
+        app:srcCompat="@drawable/nopersp_noball_cup_8x" />
+
+    <ImageButton
+        android:id="@+id/activity_game_ko_cup20_noball"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="#323131"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.789"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.896"
+        app:srcCompat="@drawable/nopersp_noball_cup_8x" />
+
+    <ImageButton
+        android:id="@+id/activity_game_ko_cup17_noball"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="#323131"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.896"
+        app:srcCompat="@drawable/nopersp_noball_cup_8x" />
+
+    <ImageButton
+        android:id="@+id/activity_game_ko_cup1_noball12"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="#323131"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.227"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109"
+        app:srcCompat="@drawable/nopersp_noball_cup_8x" />
+
+    <ImageButton
+        android:id="@+id/activity_game_ko_cup7_noball"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="#323131"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.687"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.207"
+        app:srcCompat="@drawable/nopersp_noball_cup_8x" />
+
+    <ImageButton
+        android:id="@+id/activity_game_ko_cup8_noball"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="#323131"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.413"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.304"
+        app:srcCompat="@drawable/nopersp_noball_cup_8x" />
+
+    <ImageButton
+        android:id="@+id/activity_game_ko_cup9_noball"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="#323131"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.304"
+        app:srcCompat="@drawable/nopersp_noball_cup_8x" />
+
+    <ImageButton
+        android:id="@+id/activity_game_ko_cup10_noball"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="#323131"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.402"
+        app:srcCompat="@drawable/nopersp_noball_cup_8x" />
+
+    <ImageButton
+        android:id="@+id/activity_game_ko_cup6_noball"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="#323131"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.207"
+        app:srcCompat="@drawable/nopersp_noball_cup_8x" />
+
+    <ImageButton
+        android:id="@+id/activity_game_ko_cup5_noball"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="#323131"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.315"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.207"
+        app:srcCompat="@drawable/nopersp_noball_cup_8x" />
+
+    <ImageButton
+        android:id="@+id/activity_game_ko_cup4_noball"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="#323131"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.789"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109"
+        app:srcCompat="@drawable/nopersp_noball_cup_8x" />
+
+    <ImageButton
+        android:id="@+id/activity_game_ko_cup3_noball"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="#323131"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109"
+        app:srcCompat="@drawable/nopersp_noball_cup_8x" />
+
+    <ImageButton
+        android:id="@+id/activity_game_ko_cup2_noball"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="#323131"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.413"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109"
+        app:srcCompat="@drawable/nopersp_noball_cup_8x" />
+
+    <ImageButton
+        android:id="@+id/activity_game_ko_cup1_noball"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="#323131"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.227"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109"
+        app:srcCompat="@drawable/nopersp_noball_cup_8x" />
+
+    <TextView
+        android:id="@+id/activity_game_ko_tv_team1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team 1"
+        android:rotationX="180"
+        android:rotationY="180"
+        android:textColor="#F4F2F2"
+        android:textColorHighlight="#000000"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/activity_game_ko_cup4_noball"
+        app:layout_constraintStart_toStartOf="@+id/activity_game_ko_cup1_noball12"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038" />
+
+    <ImageView
+        android:id="@+id/activity_game_ko_iv_vs"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/activity_game_ko_cup11_noball"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activity_game_ko_cup10_noball"
+        app:srcCompat="@drawable/vs_flames_8x" />
+
+    <TextView
+        android:id="@+id/activity_game_ko_tv_punkte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:rotationX="180"
+        android:rotationY="180"
+        android:text="Points:"
+        android:textColor="#F4F0F0"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/activity_game_ko_cup10_noball"
+        app:layout_constraintHorizontal_bias="0.304"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.418" />
+
+    <TextView
+        android:id="@+id/activity_game_ko_tv_punkteanzahl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:rotationX="180"
+        android:rotationY="180"
+        android:text="0"
+        android:textColor="#F8F5F5"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/activity_game_ko_tv_punkte"
+        app:layout_constraintHorizontal_bias="0.849"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.418" />
+
+    <TextView
+        android:id="@+id/activity_game_ko_tv_punkteanzahl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="0"
+        android:textColor="#F8F5F5"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/activity_game_ko_cup11_noball"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toEndOf="@+id/activity_game_ko_tv_punkte2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.595" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

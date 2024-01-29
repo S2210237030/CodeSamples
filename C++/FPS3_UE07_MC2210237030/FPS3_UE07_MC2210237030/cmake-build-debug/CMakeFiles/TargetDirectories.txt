@@ -1,0 +1,3 @@
+C:/Users/sandr/CLionProjects/FPS3_UE07_MC2210237030/cmake-build-debug/CMakeFiles/FPS3_UE07_MC2210237030.dir
+C:/Users/sandr/CLionProjects/FPS3_UE07_MC2210237030/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/sandr/CLionProjects/FPS3_UE07_MC2210237030/cmake-build-debug/CMakeFiles/rebuild_cache.dir
